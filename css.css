@@ -35,27 +35,17 @@ do so via my paypal: https://paypal.me/mrmcpowned
 
 */
 
-@keyframes colorhue{
-    from {-webkit-filter: hue-rotate(0deg); filter: hue-rotate(0deg);}
-    to {-webkit-filter: hue-rotate(359deg); filter: hue-rotate(359deg);}
-}
-
-.edit {
-    animation: colorhue 1s linear infinite;
-}
-
 /*BEGIN PS4 Controller Styling*/
 .controller.ds4 {
-    background: url(ps4-assets/base.svg);
+    background: url(newbase.svg);
     height: 598px;
     width: 806px;
-	background-color: rgba(0, 0, 0, 0);
     /*    margin-left: -403px;
         margin-top: -280px;*/
 }
 
 .ds4.disconnected {
-    background: url(ps4-assets/disconnected.svg);
+    background: url(ps4disconnected.svg);
 }
 
 .ds4.disconnected div {
@@ -72,7 +62,7 @@ do so via my paypal: https://paypal.me/mrmcpowned
 .ds4 .trigger {
     width: 99px;
     height: 100%;
-    background: url(ps4-assets/triggers.svg);
+    background: url(ps4triggers.svg);
     opacity: 0;
 }
 
@@ -88,7 +78,7 @@ do so via my paypal: https://paypal.me/mrmcpowned
 .ds4 .bumper {
     width: 99px;
     height: 23px;
-    background: url(ps4-assets/bumper.svg) no-repeat;
+    background: url(ps4bumper.svg) no-repeat;
     opacity: 0;
 }
 
@@ -124,7 +114,7 @@ do so via my paypal: https://paypal.me/mrmcpowned
 }
 
 .ds4 .touchpad.pressed {
-    background: url(ps4-assets/touchpad.svg) no-repeat center;
+    background: url(ps4touchpad.svg) no-repeat center;
 }
 
 .ds4 .meta {
@@ -136,7 +126,7 @@ do so via my paypal: https://paypal.me/mrmcpowned
 }
 
 .ds4 .meta.pressed {
-    background: url(ps4-assets/meta.svg) no-repeat center;
+    background: url(ps4meta.svg) no-repeat center;
 }
 
 /*Not needed, but I like keeping them here for posterity*/
@@ -169,7 +159,7 @@ background-position: 0 -70px;
 }
 
 .ds4 .back, .ds4 .start {
-    background: url(ps4-assets/start.svg);
+    background: url(ps4start.svg);
     width: 28px;
     height: 46px;
     opacity: 0;
@@ -204,7 +194,7 @@ background-position: 0 -70px;
     position: absolute;
     width: 55px;
     height: 55px;
-    background: url(ps4-assets/face.svg);
+    background: url(ps4face.svg);
 }
 
 .ds4 .button.pressed {
@@ -244,7 +234,7 @@ background-position: 0 -70px;
 
 .ds4 .stick {
     position: absolute;
-    background: url(ps4-assets/sticks.svg);
+    background: url(ps4sticks.svg);
     height: 94px;
     width: 94px;
 }
@@ -276,7 +266,7 @@ background-position: 0 -70px;
 }
 
 .ds4 .face {
-    background: url(ps4-assets/dpad.svg);
+    background: url(ps4dpad.svg);
     position: absolute;
 }
 
@@ -321,7 +311,6 @@ background-position: 0 -70px;
 
 .ds4.half {
     margin-top: -300px;
-	background-color: rgba(0, 0, 0, 0);
 }
 
 /*END PS4 Controller Styling*/
